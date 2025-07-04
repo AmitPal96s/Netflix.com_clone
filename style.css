@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(../Images/BG.jpg);
+    height: 110vh;
+    position: relative;
+    background-size: max(1650px, 100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+.main .Box {
+    height: 110vh;
+    background-color: black;
+    opacity: 0.65;
+    position: absolute;
+    width: 100%;
+    top: 0%;
+    background-size: 100vw;
+}
+
+nav img {
+    position: relative;
+    z-index: 10;
+    width: 9.5rem;
+    height: 2.5rem;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+
+    margin: auto;
+    max-width: 80vw;
+    justify-content: space-between;
+    height: 87px;
+
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+
+}
+
+nav button .img2 {
+    width: 8px;
+    height: 8px;
+    margin: 0 5px;
+}
+
+nav button .img1 {
+    width: 18px;
+    height: 20px;
+    margin: -1px 5px -3px 5px;
+}
+
+.hero {
+    height: 89%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 10;
+    gap: 23px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 70px;
+    font-family: "Poppins", sans-serif;
+    gap: 25;
+    text-align: center;
+    max-width: 541px;
+}
+
+.hero :nth-child(2) {
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgb(255, 255, 255);
+    font-family: "Poppins", sans-serif;
+}
+
+.hero :nth-child(3) {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.hero input {
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid grey;
+    color: rgb(255, 255, 255);
+    padding: 1.5rem 14rem 0.75rem 1rem;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    text-align: inherit;
+    position: relative;
+    border-radius: 0.25rem;
+    gap: 3px;
+    font-size: 12px;
+}
+
+.hero button {
+    gap: 3px;
+}
+
+.line {
+    height: 9px;
+    background-color: rgba(128, 128, 128, 0.308);
+}
+
+.btn {
+    align-items: center;
+    border-radius: 6px;
+    padding: 8px 16px;
+
+}
+
+.english {
+    color: rgb(255, 255, 255);
+    padding: 6px 20px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 0.3px solid rgb(145, 140, 140);
+    font-weight: 700;
+
+}
+
+.red-btn-sm {
+    background-color: red;
+    color: rgb(255, 255, 255);
+    padding: 0.75rem 1.7rem 0.45rem 1rem;
+    border-radius: 0.25rem;
+    min-height: 3.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin: auto;
+    border-radius: 4px;
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.Elements {
+    padding: 0 9.25rem;
+}
+
+.trending {
+    padding-top: 5px;
+    max-width: 20vw;
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.movies {
+    display: flex;
+    padding-top: 20px;
+    gap: 35px;
+    padding-bottom: 40px;
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+.moviestyle img {
+    border-radius: 0.5rem;
+}
+
+.reason {
+    max-width: 20vw;
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.first {
+    color: white;
+    display: flex;
+    justify-content: center;
+    max-width: 80vw;
+    margin: auto;
+    align-items: center;
+    padding: 72px 0;
+    font-family: sans-serif;
+}
+
+.first h3 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.first p {
+    font-size: 24px;
+}
+
+.secImage {
+    position: relative;
+
+}
+
+.secImage img {
+    width: 38vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secImage video {
+    position: absolute;
+    top: 90px;
+    right: 82px;
+    width: 27.5vw;
+}
+
+.second {
+    color: white;
+    display: flex;
+    justify-content: center;
+    max-width: 80vw;
+    margin: 0 150px;
+    align-items: center;
+    padding: 72px 0;
+    font-family: sans-serif;
+    gap: 35px;
+}
+
+.second h3 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.second p {
+    font-size: 24px;
+}
+
+.second img {
+    width: 580px;
+
+}
+
+.second .photo img {
+    width: auto;
+    height: 80px;
+}
+
+.second .down img {
+    height: 60px;
+    width: auto;
+}
+
+.stbox .txt h3 {
+    font-size: 10px;
+}
+
+.stbox .txt p {
+    font-size: 10px;
+    color: blue;
+}
+
+.stbox {
+    display: flex;
+    width: 367.58px;
+    border: 2px solid grey;
+    border-radius: 2px;
+    position: absolute;
+
+    align-items: center;
+    padding: 8px 12px;
+}
+
+.faq {
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.question {
+
+    color: white;
+    display: list-item;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: sans-serif;
+
+}
+
+.q1 {
+    transition: all 1s ease-out;
+    background-color: rgb(45 45 45);
+    display: flex;
+    text-align: center;
+    padding: 24px;
+    justify-content: space-between;
+    margin: 11px auto;
+    cursor: pointer;
+    max-width: 1100px;
+}
+
+.question :hover {
+    background-color: rgb(65 65 65);
+}
+
+.memb {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+
+.ending {
+    align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2.85rem;
+    margin-bottom: 60px;
+    gap: 20px;
+}
+
+.search input {
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid grey;
+    color: rgb(255, 255, 255);
+    padding: 1.5rem 14rem 0.75rem 1rem;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    text-align: inherit;
+    position: relative;
+    border-radius: 0.25rem;
+    gap: 3px;
+    font-size: 12px;
+}
+
+footer {
+    color: rgb(255 255 255 / 70%);
+    max-width: 75vw;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+    margin: auto;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.questions{
+    margin-bottom: 1.5rem;
+}
+.footer a {
+    color: rgb(255 255 255 / 70%);
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: rgb(255 255 255 / 70%);
+    max-width: 75vw;
+    margin: auto;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
